@@ -1,0 +1,7 @@
+name: GeyserMoreRows
+version: '${project.version}'
+main: me.zimzaza4.geysermorerows.GeyserMoreRows
+api-version: '1.13'
+depend:
+  - packetevents
+  - floodgate
