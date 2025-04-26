@@ -61,10 +61,9 @@
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
-
         <repository>
-            <id>opencollab-release-repo</id>
-            <url>https://repo.opencollab.dev/maven-releases/</url>
+            <id>opencollab-snapshot</id>
+            <url>https://repo.opencollab.dev/main/</url>
         </repository>
         <repository>
             <id>codemc-releases</id>
@@ -83,11 +82,10 @@
             <version>1.20.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-
         <dependency>
             <groupId>org.geysermc.floodgate</groupId>
             <artifactId>api</artifactId>
-            <version>2.2.2-SNAPSHOT</version>
+            <version>2.2.4-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
